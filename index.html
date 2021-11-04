@@ -26,7 +26,7 @@
         <!--================Header Menu Area =================-->
         <header class="header_area">
             <div class="main_menu">
-            	<nav class="navbar navbar-expand-lg navbar-light">
+            	<nav  class="navbar navbar-expand-lg navbar-light">
 					<div class="container box_1620">
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,25 +36,13 @@
 						</button>
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-							<ul class="nav navbar-nav menu_nav ml-auto">
-								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
-								<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li> 
-								<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li> 
-								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-										<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-									</ul>
-								</li> 
-								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-										<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-									</ul>
-								</li> 
-								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							<ul id="nav_main_menu" class="nav navbar-nav menu_nav ml-auto">
+								<li class="nav-item active"><a class="nav-link" href="#home">Home</a></li> 
+								<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+								<li class="nav-item submenu dropdown"><a href="#experiences" class="nav-link dropdown-toggle">Experiences & Education</a></li>
+								<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+								<li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+								<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
 							</ul>
 						</div> 
 					</div>
@@ -64,7 +52,7 @@
         <!--================Header Menu Area =================-->
         
         <!--================Home Banner Area =================-->
-        <section class="home_banner_area">
+        <section id="home" class="home_banner_area">
            	<div class="container box_1620">
            		<div class="banner_inner d-flex align-items-center">
 					<div class="banner_content">
@@ -95,117 +83,124 @@
         <!--================End Home Banner Area =================-->
         
         <!--================Welcome Area =================-->
-        <section class="welcome_area p_120">
+        <section id="about" class="welcome_area p_120">
         	<div class="container">
         		<div class="row welcome_inner">
-        			<div class="col-lg-6">
-        				<div class="welcome_text">
-        					<h4>About Myself</h4>
+        			<div class="col-lg-12">
+        				<div class="main_title">
+        					<h2>About Myself</h4>
         					<p>I am a Computer Science Engineer graduate. I have more than 10 years of experience in the development of WEB applications, using multiple technologies, among the most used are HTML5, JS, CSS, PHP. Experience with PHP, Symfony, Laravel and Angular4 FrameWorks. I have knowledge of Drupal, Joomla and WordPress. I am currently working as a Mobile Android developer (3 years of experience).</p>
         				</div>
         			</div>
-        			<div class="col-lg-6">
+					<div class="col-lg-12">
 						<div class="row">
-							<div class="col-md-12">
-								<div class="wel_item">
-									<i class="xlarge fa fa-android"></i>
-									<h4>Android & Kotlin</h4>
+							<div class="col-md-12 border rounded p-5">
+								<h3>Skills</h3>
+								<div class="row">
+									<div class="col-md-3">
+										<div class="wel_item">
+											<i class="fa fa-android"></i>
+											<h4>Android & Kotlin</h4>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="wel_item">
+											<i class="fa fa-database"></i>
+											<h4>MySQL</h4>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="wel_item">
+											<i class="fab fa-js-square"></i>
+											<h4>Javascript</h4>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="wel_item">
+											<i class="fab fa-html5"></i>
+											<h4>HTML 5</h4>
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
-						<div class="row mt-3">
-							<div class="col-md-4">
-								<div class="wel_item">
-									<i class="fa fa-database"></i>
-									<h4>MySQL</h4>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="wel_item">
-									<i class="fab fa-js-square"></i>
-									<h4>Javascript</h4>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="wel_item">
-									<i class="fab fa-html5"></i>
-									<h4>HTML 5</h4>
-								</div>
-							</div>
-						</div>
-						<div class="row mt-3">
-							<div class="col-md-4">
-								<div class="wel_item">
-									<i class="fab fa-css3-alt"></i>
-									<h4>CSS 3</h4>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="wel_item">
-									<i class="fab fa-php"></i>
-									<h4>PHP</h4>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="wel_item">
-									<i class="fab fa-bootstrap"></i>
-									<h4>Bootstrap</h4>
-								</div>
-							</div>
+								<div class="row mt-3">
+									<div class="col-md-3">
+										<div class="wel_item">
+											<i class="fab fa-css3-alt"></i>
+											<h4>CSS 3</h4>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="wel_item">
+											<i class="fab fa-php"></i>
+											<h4>PHP</h4>
+										</div>
+									</div>
 										
+								</div>
+							</div>
 						</div>
-        				<!-- <div class="tools_expert">
-        					<div class="skill_main">
-								<div class="skill_item">
-									<h4>After Effects <span class="counter">85</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<div class="col-lg-12 mt-5">
+						<div class="row">
+							<div class="col-md-12 border rounded p-5">
+								<h3>Frameworks</h3>
+								<div class="row">
+									<div class="col-md-3">
+										<div class="wel_item">
+											<i class="fab fa-symfony"></i>
+											<h4>Symfony</h4>
 										</div>
 									</div>
-								</div>
-								<div class="skill_item">
-									<h4>Photoshop <span class="counter">90</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+									<div class="col-md-3">
+										<div class="wel_item">
+											<i class="fab fa-laravel"></i>
+											<h4>Laravel</h4>
 										</div>
 									</div>
-								</div>
-								<div class="skill_item">
-									<h4>Illustrator <span class="counter">70</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+									<div class="col-md-3">
+										<div class="wel_item">
+											<i class="fab fa-drupal"></i>
+											<h4>Drupal</h4>
 										</div>
 									</div>
-								</div>
-								<div class="skill_item">
-									<h4>Sublime <span class="counter">95</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="skill_item">
-									<h4>Sketch <span class="counter">75</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+									<div class="col-md-3">
+										<div class="wel_item">
+											<i class="fab fa-bootstrap"></i>
+											<h4>Bootstrap</h4>
 										</div>
 									</div>
 								</div>
 							</div>
-        				</div> -->
-        			</div>
+						</div>
+					</div>
+					<div class="col-lg-12 mt-5">
+						<div class="row">
+							<div class="col-md-12 border rounded p-5">
+								<h3>Collaboration</h3>
+								<div class="row">
+									<div class="col-md-3">
+										<div class="wel_item">
+											<i class="fab fa-git"></i>
+											<h4>Git</h4>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="wel_item">
+											<i class="fas fa-users-cog"></i>
+											<h4>SCRUM</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
         		</div>
         	</div>
         </section>
         <!--================End Welcome Area =================-->
         
         <!--================My Tabs Area =================-->
-        <section class="mytabs_area p_120">
+        <section id="experiences" class="mytabs_area p_120">
         	<div class="container">
         		<div class="tabs_inner">
 					<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -223,7 +218,7 @@
 									<span></span>
 									<div class="media">
 										<div class="d-flex">
-											<p>March 2017 to present</p>
+											<p>March 2021 to present</p>
 										</div>
 										<div class="media-body">
 											<h4>Colorlib</h4>
@@ -235,7 +230,7 @@
 									<span></span>
 									<div class="media">
 										<div class="d-flex">
-											<p>March 2017 to present</p>
+											<p>March 2021 to present</p>
 										</div>
 										<div class="media-body">
 											<h4>Colorlib</h4>
@@ -338,7 +333,7 @@
         <!--================End Feature Area =================-->
         
         <!--================Home Gallery Area =================-->
-        <section class="home_gallery_area p_120">
+        <section id="projects" class="home_gallery_area p_120">
         	<div class="container">
         		<div class="main_title">
         			<h2>Our Latest Featured Projects</h2>
@@ -437,7 +432,7 @@
         <!--================End Home Gallery Area =================-->
         
         <!--================Testimonials Area =================-->
-        <section class="testimonials_area p_120">
+        <section id="testimonials" class="testimonials_area p_120">
         	<div class="container">
         		<div class="main_title">
         			<h2>Testimonials</h2>
@@ -485,7 +480,7 @@
         <!--================End Testimonials Area =================-->
         
         <!--================Footer Area =================-->
-        <footer class="footer_area p_120">
+        <footer id="contact" class="footer_area p_120">
         	<div class="container">
         		<div class="row footer_inner">
         			<div class="col-lg-5 col-sm-6">
@@ -493,16 +488,16 @@
         					<div class="f_title">
         						<h3>About Me</h3>
         					</div>
-        					<p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills,</p>
+        					<p>I am a Computer Science Engineer graduate. I have more than 10 years of experience in the development of WEB applications, using multiple technologies, among the most used are HTML5, JS, CSS, PHP. Experience with PHP, Symfony, Laravel and Angular4 FrameWorks. I have knowledge of Drupal, Joomla and WordPress. I am currently working as a Mobile Android developer (3 years of experience).</p>
         					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
         				</aside>
         			</div>
-        			<div class="col-lg-5 col-sm-6">
+        			<div class="col-lg-7 col-sm-6">
         				<aside class="f_widget news_widget">
         					<div class="f_title">
-        						<h3>Newsletter</h3>
+        						<h3>Contact</h3>
         					</div>
         					<p>Stay updated with our latest trends</p>
         					<div id="mc_embed_signup">
@@ -514,20 +509,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                                     <div class="mt-10 info"></div>
                                 </form>
                             </div>
-        				</aside>
-        			</div>
-        			<div class="col-lg-2">
-        				<aside class="f_widget social_widget">
-        					<div class="f_title">
-        						<h3>Follow Me</h3>
-        					</div>
-        					<p>Let us be social</p>
-        					<ul class="list">
-        						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-        						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-        						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-        						<li><a href="#"><i class="fa fa-behance"></i></a></li>
-        					</ul>
         				</aside>
         			</div>
         		</div>
@@ -556,6 +537,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
         <script src="vendors/counter-up/jquery.counterup.min.js"></script>
         <script src="js/mail-script.js"></script>
+		<script src="js/jquery-offset-scroller.js"></script>
         <script src="js/theme.js"></script>
     </body>
 </html>
