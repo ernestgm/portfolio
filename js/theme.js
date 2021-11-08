@@ -102,14 +102,7 @@
 //            })
 //        }
 //    }
-//    clients_slider();
-	/*----------------------------------------------------*/
-    /*  MailChimp Slider
-    /*----------------------------------------------------*/
-    function mailChimp(){
-        $('#mc_embed_signup').find('form').ajaxChimp();
-    }
-    mailChimp();
+
 	
 	$('select').niceSelect();
 	
@@ -199,17 +192,5 @@
         }
     }
     testimonials_slider();
-	
-	$(document).ready(function() {
-		$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-			disableOn: 700,
-			type: 'iframe',
-			mainClass: 'mfp-fade',
-			removalDelay: 160,
-			preloader: false,
-
-			fixedContentPos: false
-		});
-	});
 
 })(jQuery)
